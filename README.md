@@ -1,3 +1,22 @@
+# Schedule of Investments
+
+The most important feature of the Carta Investor Services product is the Schedule of Investments.
+
+The Schedule of Investments is the definitive list of all investments made by a fund.
+
+Create a frontend using React, that displays this data in a table form.
+
+### Utilized Material UI, Styled-Components
+
+## MVP features
+
+* Make an API call to this URL for the data: https://gist.githubusercontent.com/cranium/d8b83184bf0750f2c834760b7c9203dc/raw/a73a70716951f77b90e84b8848ff1fee46938dd1/soi.json
+* Include a date picker to choose a date from which date to pull data (append ?date=YYYY-MM-DD to the URL to simulate pulling data for a different day). If a new date is selected the table should reload.
+* Ability to expand/collapse the assets underneath an investment.
+* Bonus: Include the ability to expand/collapse all of the investments at once.
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
